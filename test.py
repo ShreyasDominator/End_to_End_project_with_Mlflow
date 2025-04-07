@@ -1,0 +1,1 @@
+from src.Mlflow_ML_project import logger
