@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/ML_Projects_iNeuron/End_End_with_Mlflow/mlruns/0/b73f57caa5f34402bb67f541b7744015/artifacts
+end_time: 1744131025321
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b73f57caa5f34402bb67f541b7744015
+run_name: big-cub-993
+run_uuid: b73f57caa5f34402bb67f541b7744015
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744131012541
+status: 3
+tags: []
+user_id: Admin

@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/ML_Projects_iNeuron/End_End_with_Mlflow/mlruns/0/b0456ac484f8481093388eb38690734a/artifacts
+end_time: 1744130884665
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b0456ac484f8481093388eb38690734a
+run_name: wistful-pug-89
+run_uuid: b0456ac484f8481093388eb38690734a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744130870745
+status: 3
+tags: []
+user_id: Admin
