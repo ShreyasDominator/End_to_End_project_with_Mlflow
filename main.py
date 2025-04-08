@@ -3,6 +3,7 @@ from Mlflow_ML_project import logger
 from Mlflow_ML_project.pipeline.stage_01_Data_ingestion import DataIngestionTrainingPipeline
 from Mlflow_ML_project.pipeline.stage_02_Data_Validation import DataValidationTrainingPipeline
 from Mlflow_ML_project.pipeline.stage_03_data_Transformation import DataTransformationTrainingPipeline
+from Mlflow_ML_project.pipeline.stage_04_Model_training import ModelTrainerTrainingPipeline
 
 
 logger.info('Welcome to our custom logging')
@@ -35,3 +36,29 @@ try:
 except Exception as e:
     logger.exception(e)
     raise e
+
+
+STAGE_NAME = "Model Trainer stage"
+try:
+   logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<") 
+   data_ingestion = ModelTrainerTrainingPipeline()
+   data_ingestion.main()
+   logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+except Exception as e:
+        logger.exception(e)
+        raise e
+
+
+
+# STAGE_NAME = "Model evaluation stage"
+# try:
+#    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<") 
+#    data_ingestion = ModelEvaluationTrainingPipeline()
+#    data_ingestion.main()
+#    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+# except Exception as e:
+#         logger.exception(e)
+#         raise e
+
+
+
