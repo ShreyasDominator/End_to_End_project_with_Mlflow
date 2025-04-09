@@ -9,11 +9,6 @@ import joblib
 from Mlflow_ML_project.entity.config_entity import ModelEvaluationConfig
 from pathlib import Path
 from Mlflow_ML_project.utils.common import save_json
-import os
-
-os.environ["MLFLOW_TRACKING_URI"] = "https://dagshub.com/ShreyasDominator/End_to_End_project_with_Mlflow.mlflow"
-os.environ["MLFLOW_TRACKING_USERNAME"] = "ShreyasDominator"
-os.environ["MLFLOW_TRACKING_PASSWORD"] = "c79b27cd042d93400b3a1099115f3899a027693f"
 
 class ModelEvaluation:
     def __init__(self, config: ModelEvaluationConfig):
